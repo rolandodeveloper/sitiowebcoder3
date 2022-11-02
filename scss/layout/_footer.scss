@@ -1,0 +1,23 @@
+.barraNavegacionFooter li{
+    list-style: none;
+}
+
+.barraNavegacionFooter li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.7rem;
+}
+
+.barraNavegacionFooter li a:hover {
+    color: lightgray;
+}
+
+footer{
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: 1fr 200px 200px 200px;
+    grid-template-rows: 1fr;
+    background-color:$colorFondoSecundario;
+    color: white;
+    
+}
